@@ -1,0 +1,26 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# PyInstaller or other build artifacts
+*.spec
+dist/
+build/
+
+# Virtual environment folders
+env/
+venv/
+
+# Output and config files that should remain private
+encrypted_files/
+metadata.json
+config.json
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
